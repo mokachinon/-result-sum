@@ -78,7 +78,7 @@ export default {
   align-items: center;
   justify-content: center;
   margin: 50px;
-  margin-bottom: 0px
+  margin-bottom: 0px;
 }
 
 /* .clearBoth {
@@ -91,6 +91,7 @@ export default {
   background-color: white;
   display: flex;
   border-radius: 50px;
+  box-shadow: 0px 209px 58px rgba(200, 199, 255, 0.01), 0px 134px 53px rgba(200, 199, 255, 0.04), 0px 75px 45px rgba(200, 199, 255, 0.15), 0px 33px 33px rgba(200, 199, 255, 0.26), 0px 8px 18px rgba(200, 199, 255, 0.29), 0px 0px 0px rgba(200, 199, 255, 0.3);
 }
 
 
@@ -165,6 +166,7 @@ span {
   align-items: flex-start;
   justify-content: center
 }
+
 /*  */
 
 .summary-component {
@@ -209,6 +211,7 @@ span {
 
 .continue-btn:hover::after {
   opacity: 1;
+  cursor: pointer;
 }
 
 .continue-btn .relative {
@@ -260,9 +263,11 @@ span {
   .body {
     margin: 0px;
   }
+
   .container {
     flex-direction: column;
   }
+
   .result {
     border-radius: 0px 0px 30px 30px;
   }
@@ -270,7 +275,7 @@ span {
   .summary {
     border-radius: none;
   }
-  
+
 }
 </style>
 
